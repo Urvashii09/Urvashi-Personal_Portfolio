@@ -12,7 +12,7 @@ export const About = () => {
       className="relative min-h-screen py-20"
       style={{
         backgroundImage:
-          "url('/Urvashi-Personal_Portfolio/certificates/certbg.jpg')", // 🔹 your bg
+          "url('/certificates/certbg.jpg')", // 🔹 your bg
         backgroundSize: "cover",
         backgroundPosition: "center",
       }}
