@@ -34,7 +34,7 @@ export const Contact = () => {
       className="relative min-h-screen flex items-center justify-center py-20 text-gray-100"
       style={{
         backgroundImage:
-          "url('/Urvashi-Personal_Portfolio/certificates/certbg.jpg')",
+          "url('/certificates/certbg.jpg')",
         backgroundSize: "cover",
         backgroundPosition: "center",
         backgroundRepeat: "no-repeat",
