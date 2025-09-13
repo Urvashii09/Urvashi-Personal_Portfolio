@@ -14,7 +14,7 @@ export const Projects = () => {
       title: "Personal Portfolio Website",
       desc: "A modern, interactive portfolio featuring my projects with polished UI, smooth animations, and responsive design.",
       tech: ["React", "TailwindCSS", "JavaScript", "HTML", "CSS"],
-      live: "https://urvashii09.github.io/Urvashi-Personal_Portfolio/",
+      live: "https://urvashimishra.netlify.app/",
       github: "https://github.com/Urvashii09/Urvashi-Personal_Portfolio",
       color: "pink",
     },
