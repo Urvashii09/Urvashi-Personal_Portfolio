@@ -1,7 +1,11 @@
 import { RevealOnScroll } from "../RevealOnScroll";
 
 export const Resume = () => {
+<<<<<<< HEAD
   const base = "/";
+=======
+  // const base = "/";
+>>>>>>> 9f92f9cefcbfe98042ffee097bed1aad63ac17f9
 
   return (
     <section
@@ -40,7 +44,7 @@ export const Resume = () => {
 
               {/* Download Resume Button */}
               <a
-                href={`${base}resume/Urvashiii_Mishra-9555430122.pdf`}
+                href={`/resume/Urvashiii_Mishra-9555430122.pdf`}
                 download="Urvashiii_Mishra_Resume.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
