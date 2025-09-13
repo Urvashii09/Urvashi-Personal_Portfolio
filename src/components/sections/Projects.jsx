@@ -14,8 +14,8 @@ export const Projects = () => {
       title: "Personal Portfolio Website",
       desc: "A modern, interactive portfolio featuring my projects with polished UI, smooth animations, and responsive design.",
       tech: ["React", "TailwindCSS", "JavaScript", "HTML", "CSS"],
-      live: "#",
-      github: "#",
+      live: "https://urvashii09.github.io/Urvashi-Personal_Portfolio/",
+      github: "https://github.com/Urvashii09/Urvashi-Personal_Portfolio",
       color: "pink",
     },
   ];
@@ -25,7 +25,7 @@ export const Projects = () => {
       id="projects"
       className="relative min-h-screen py-20 pb-32 bg-gray-900"
       style={{
-        backgroundImage: "url('/Urvashi-Personal_Portfolio/certificates/certbg.jpg')",
+        backgroundImage: "url('/certificates/certbg.jpg')",
         backgroundSize: "cover",
         backgroundPosition: "center",
       }}
@@ -41,11 +41,12 @@ export const Projects = () => {
           </h2>
         </RevealOnScroll>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-10 place-items-stretch">
+        {/* Grid Layout */}
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-10 justify-items-center">
           {projects.map((proj, idx) => (
-            <RevealOnScroll key={idx} animation="fade-up" className="h-full">
+            <RevealOnScroll key={idx} animation="fade-up" className="h-full w-full">
               <div
-                className={`h-full flex flex-col justify-between p-8 rounded-2xl bg-gray-800/80 backdrop-blur-sm transition-all duration-500 hover:-translate-y-2 hover:scale-105 max-w-md w-full border border-gray-700
+                className={`h-full flex flex-col justify-between p-8 rounded-2xl bg-gray-800/80 backdrop-blur-sm transition-all duration-500 hover:-translate-y-2 hover:scale-105 w-full max-w-lg border border-gray-700
                 ${
                   proj.color === "blue"
                     ? "hover:border-blue-400 hover:shadow-[0_4px_16px_rgba(59,130,246,0.4)]"
@@ -90,6 +91,8 @@ export const Projects = () => {
                 <div className="flex justify-between items-center mt-auto">
                   <a
                     href={proj.live}
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className={`text-sm md:text-base font-medium transition-colors ${
                       proj.color === "blue"
                         ? "text-blue-400 hover:text-blue-300"
