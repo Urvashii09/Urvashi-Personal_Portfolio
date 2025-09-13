@@ -25,7 +25,7 @@ export const Projects = () => {
       id="projects"
       className="relative min-h-screen py-20 pb-32 bg-gray-900"
       style={{
-        backgroundImage: "url('/Urvashi-Personal_Portfolio/certificates/certbg.jpg')",
+        backgroundImage: "url('/certificates/certbg.jpg')",
         backgroundSize: "cover",
         backgroundPosition: "center",
       }}
