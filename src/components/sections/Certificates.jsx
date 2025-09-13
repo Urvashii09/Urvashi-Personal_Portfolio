@@ -1,7 +1,7 @@
 import { RevealOnScroll } from "../RevealOnScroll";
 
 export const Certificates = () => {
-  const base = "/Urvashi-Personal_Portfolio/";
+  const base = "/";
 
   const certificates = [
     {
@@ -21,7 +21,7 @@ export const Certificates = () => {
       id="certificates"
       className="relative min-h-screen py-20 bg-gray-900 pb-32"
       style={{
-        backgroundImage: "url('/Urvashi-Personal_Portfolio/certificates/certbg.jpg')",
+        backgroundImage: "url('/certificates/certbg.jpg')",
         backgroundSize: "cover",
         backgroundPosition: "center",
       }}
