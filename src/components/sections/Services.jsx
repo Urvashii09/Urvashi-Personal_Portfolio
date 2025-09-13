@@ -64,7 +64,7 @@ const Services = () => {
       id="services"
       className="relative min-h-screen py-20 pb-32"
       style={{
-        backgroundImage: "url('/Urvashi-Personal_Portfolio/certificates/certbg.jpg')",
+        backgroundImage: "url('/certificates/certbg.jpg')",
         backgroundSize: "cover",
         backgroundPosition: "center",
       }}
