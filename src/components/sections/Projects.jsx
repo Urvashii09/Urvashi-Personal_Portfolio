@@ -6,7 +6,7 @@ export const Projects = () => {
       title: "PneumoScan: AI Driven Pneumonia Detection Using X-ray Images",
       desc: "AI-powered chest X-ray analysis for fast and accurate pneumonia detection.",
       tech: ["Python", "TensorFlow", "Keras", "Flask", "HTML", "CSS", "JavaScript"],
-      live: "#",
+      live: "http://127.0.0.1:5000",
       github: "https://github.com/Urvashii09/Final_Year_Project-PneumoScan",
       color: "blue",
     },
